@@ -4,7 +4,7 @@ import markdown
 import mistune
 import re
 from striprtf.striprtf import rtf_to_text
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from knowledge_base_builder.base_processor import BaseProcessor
 
 class DocumentProcessor(BaseProcessor):
