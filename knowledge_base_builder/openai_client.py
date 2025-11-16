@@ -1,7 +1,7 @@
 import asyncio
 import time
 from langchain_openai import ChatOpenAI
-from langchain.schema import HumanMessage
+from langchain_core.messages import HumanMessage
 
 from knowledge_base_builder.llm_client import LLMClient
 
