@@ -10,7 +10,7 @@ class OpenAIClient(LLMClient):
     def __init__(
         self,
         api_key: str,
-        model: str = "gpt-4o",
+        model: str = "gpt-5-nano",
         temperature: float = 0.7,
         max_retries: int = 3,
         max_concurrency: int = 8,
